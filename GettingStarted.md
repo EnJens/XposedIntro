@@ -74,11 +74,21 @@ Xposed has a few different ways to hook functions:
 ### SystemUI Clock
 The Tutorial example (https://github.com/rovo89/XposedBridge/wiki/Development-tutorial) asks you to setup a hook to patch the SystemUI Status Bar clock.
 
-It is recommended to go through this tutorial to get a feel for how it works, but the premade code can also be found here:
+It is recommended to go through this tutorial to get a feel for how it works, but the premade source can also be found here:
 https://github.com/EnJens/XposedClockDemo
 
 Once it's installed, it will look like:
+
 ![Patched Clock](images/clock-red.png)
 
 ### Settings Menu
+A simple example on how to add a new Settings category and menu on Android Nougat 7.1.1. Tested on Sony Xperia X.
+It merely opens an activity on the hooking app when the item is clicked.
+
+Source: https://github.com/EnJens/XposedSettingsDemo
+
+Screenshot:
+
+![Patched Settings](images/settings.png)
+
 
